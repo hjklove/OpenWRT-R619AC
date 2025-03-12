@@ -1,4 +1,4 @@
-name: Build-Jdcloud-Ax1800-24.10
+name: Build-JdcloudAx1800-24.10
 
 on:
   repository_dispatch:

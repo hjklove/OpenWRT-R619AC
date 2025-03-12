@@ -1,4 +1,4 @@
-name: Build-JdcloudAx1800-24.10
+name: Build-Jdcloud-Ax1800-24.10
 
 on:
   repository_dispatch:
@@ -8,14 +8,14 @@ on:
         description: 'SSH connection to Actions'
         required: true
         default: 'true'
-  schedule:
-        # - cron: 0 5 * * *
+  # schedule:
+       # - cron: 0 5 * * *
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: JdcloudAx1800.config
+  CONFIG_FILE: jdcloudax1800.config
   DIY_P1_SH: diy5.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
